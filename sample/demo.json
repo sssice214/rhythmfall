@@ -1,0 +1,27 @@
+{
+  "name": "Demo Song",
+  "artist": "rhythmfall",
+  "audio": "demo.ogg",
+  "cover": "demo.png",
+  "offset": 0,
+  "scrollSpeed": 300,
+  "notes": [
+    { "lane": 0, "time": 1000, "type": "tap" },
+    { "lane": 1, "time": 1500, "type": "tap" },
+    { "lane": 2, "time": 2000, "type": "tap" },
+    { "lane": 3, "time": 2500, "type": "tap" },
+    { "lane": 2, "time": 3000, "type": "tap" },
+    { "lane": 1, "time": 3500, "type": "tap" },
+    { "lane": 0, "time": 4000, "type": "tap" },
+    { "lane": 0, "time": 4500, "type": "tap" },
+    { "lane": 3, "time": 4500, "type": "tap" },
+    { "lane": 1, "time": 5000, "type": "tap" },
+    { "lane": 2, "time": 5000, "type": "tap" },
+    { "lane": 0, "time": 5500, "type": "hold", "endTime": 7000 },
+    { "lane": 3, "time": 5500, "type": "hold", "endTime": 7000 },
+    { "lane": 1, "time": 7000, "type": "tap" },
+    { "lane": 2, "time": 7250, "type": "tap" },
+    { "lane": 3, "time": 7500, "type": "tap" },
+    { "lane": 0, "time": 8000, "type": "tap" }
+  ]
+}

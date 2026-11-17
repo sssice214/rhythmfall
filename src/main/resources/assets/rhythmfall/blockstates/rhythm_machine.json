@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rhythmfall:block/rhythm_machine" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rhythmfall",
+  "version": "${version}",
+  "name": "Rhythmfall",
+  "description": "osu!mania style falling-note rhythm game (4K-7K). Fully client-local charts (.osu/.osz), leaderboard-only server, /rhythmfall command.",
+  "authors": ["rhythmfall"],
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.wifi.rhythmfall.RhythmfallServer"],
+    "client": ["io.wifi.rhythmfall.RhythmfallClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
